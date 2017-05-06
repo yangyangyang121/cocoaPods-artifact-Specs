@@ -2,14 +2,14 @@ Pod::Spec.new do |s|
   s.name             = "ModuleA"
   s.version          = "1.0.0"
   s.summary	     = "Module A"
-  s.homepage         = "https://github.com/yangyangyang121/Module.git"
+  s.homepage         = "https://github.com/yangyangyang121/ModuleA.git"
   s.author           = { "daniel" => "yangyangyang121@163.com" }
-  s.source           = { :git => "https://github.com/yangyangyang121/Module.git", :tag => s.version }
+  s.source           = { :git => "https://github.com/yangyangyang121/ModuleA.git", :tag => s.version }
 
   s.license      = {:type => "MIT", :file => "LICENSE"}
   s.platform     = :ios, '8.0'
   s.requires_arc = true
-  s.source_files = 'ModuleA/'
+  s.source_files = 'ModuleA/*.{h,m}'
   s.resource_bundles = {
       'ModuleABundle' => ['ModuleA/Base.lproj/*.*']
   }
