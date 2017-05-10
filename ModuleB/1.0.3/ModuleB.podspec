@@ -9,9 +9,9 @@ Pod::Spec.new do |s|
   s.license      = {:type => "MIT", :file => "LICENSE"}
   s.platform     = :ios, '8.0'
   s.requires_arc = true
-  s.source_files = 'ModuleB/*.{h,m,xib}'
+  s.source_files = 'ModuleB/*.{h,m}'
   s.resource_bundles = {
-      'ModuleABundle' => ['ModuleB/Base.lproj/*.*']
+      'ModuleAXibBundle' => ['ModuleB/*.xib']
   }
 
   s.frameworks = 'UIKit', 'Foundation'
