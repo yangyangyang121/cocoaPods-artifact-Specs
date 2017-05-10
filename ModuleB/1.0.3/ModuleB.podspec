@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.source_files = 'ModuleB/*.{h,m}'
   s.resource_bundles = {
-      'ModuleAXibBundle' => ['ModuleB/*.xib']
+      'ModuleBXibBundle' => ['ModuleB/*.xib']
   }
 
   s.frameworks = 'UIKit', 'Foundation'
